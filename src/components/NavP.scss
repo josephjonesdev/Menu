@@ -1,0 +1,34 @@
+.nav {
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.ui.inverted.button {
+  color: var(--clr-grey-2) !important;
+  box-shadow: none !important;
+  text-transform: capitalize;
+  margin-top: 2rem;
+  margin-bottom: 3.6rem;
+  font-size: 1.15rem;
+  min-width: 90px;
+  padding: 12px 0;
+  &:hover {
+    box-shadow: 0 0 0 2px var(--clr-gold) inset !important ;
+    background-color: var(--clr-grey-10);
+  }
+}
+
+.ui.dropdown {
+  max-height: 25px;
+  font-size: medium;
+  margin-bottom: 0.9rem;
+  margin-left: 1rem;
+}
+.divider.text {
+  font-weight: 600;
+}
+.hamburger {
+  display: flex;
+}
